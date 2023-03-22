@@ -1,15 +1,15 @@
 {
-"tbbolide6m": {
+"nvbolide6m": {
     "information":{
-        "authors":"tb",
+        "authors":"nulvoid",
         "name":"6-Speed Manual Transaxle",
         "value":8000,
     },
     "slotType" : "bolide_transaxle",
     "slots": [
         ["type", "default", "description"],
-		["tbbolide6mgearset","tbbolide6mgearset1","Gearset", {"coreSlot":true}],
-		["tbbolidegeartype","tbbolidegearhelical","Gear Type", {"coreSlot":true}],
+	["nvbolide6mgearset","nvbolide6mgearset1","Gearset", {"coreSlot":true}],
+	["nvbolidegeartype","nvbolidegearhelical","Gear Type", {"coreSlot":true}],
         ["bolide_flywheel","bolide_flywheel","Flywheel", {"coreSlot":true}],
         ["bolide_differential_R","bolide_differential_R_LSD", "Rear Differential"],
     ],
@@ -108,37 +108,37 @@
     ],
 },
 
-"tbbolide6mgearset1": {
+"nvbolide6mgearset1": {
     "information":{
-        "authors":"tb",
+        "authors":"nulvoid",
         "name":"Gear Set 1",
         "value":0,
     },
-    "slotType" : "tbbolide6mgearset",
+    "slotType" : "nvbolide6mgearset",
     "gearbox": {
         "uiName":"Gearbox",
         "gearRatios":[-3.5, 0, 3.23, 2.19, 1.71, 1.39, 1.16, 0.93], //McLaren F1
     },
 },
-"tbbolide6mgearset2": {
+"nvbolide6mgearset2": {
     "information":{
-        "authors":"tb",
+        "authors":"nulvoid",
         "name":"Gear Set 2",
         "value":0,
     },
-    "slotType" : "tbbolide6mgearset",
+    "slotType" : "nvbolide6mgearset",
     "gearbox": {
         "uiName":"Gearbox",
         "gearRatios":[-5.23, 0, 5.79, 3.31, 2.1, 1.31, 1, 0.72], //1989-1996 Corvette
     },
 },
-"tbbolide6mgearset3": {
+"nvbolide6mgearset3": {
     "information":{
-        "authors":"tb",
+        "authors":"nulvoid",
         "name":"Gear Set 3",
         "value":0,
     },
-    "slotType" : "tbbolide6mgearset",
+    "slotType" : "nvbolide6mgearset",
     "gearbox": {
         "uiName":"Gearbox",
         "gearRatios":[-3.73, 0, 4.11, 2.32, 1.54, 1.18, 1, 0.85], //2019 M2 Competition

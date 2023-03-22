@@ -1,0 +1,30 @@
+{
+"tbbolidegearhelical": {
+    "information":{
+        "authors":"tb",
+        "name":"Helical Gears",
+        "value":0,
+    },
+    "slotType" : "tbbolidegeartype",
+    "gearbox": {
+        "gearWhineCoefsInput":  [0.60, 0.00, 0.12, 0.12, 0.12, 0.12, 0.12, 0.12, 0.12, 0.12],
+        "gearWhineCoefsOutput": [0.00, 0.00, 0.24, 0.24, 0.24, 0.24, 0.24, 0.24, 0.24, 0.24],
+        "gearWhineInputEvent": "event:>Vehicle>Transmission>helical_01>twine_in_tuned",
+        "gearWhineOutputEvent": "event:>Vehicle>Transmission>helical_01>twine_out_tuned",
+    },
+},
+"tbbolidegearstraight": {
+    "information":{
+        "authors":"tb",
+        "name":"Straight Cut Gears",
+        "value":0,
+    },
+    "slotType" : "tbbolidegeartype",
+    "gearbox": {
+        "gearWhineCoefsInput":  [0.66, 0.00, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33],
+        "gearWhineCoefsOutput": [0.00, 0.00, 0.66, 0.66, 0.66, 0.66, 0.66, 0.66, 0.66, 0.66],
+        "gearWhineInputEvent": "event:>Vehicle>Transmission>helical_01>twine_in_tuned",
+        "gearWhineOutputEvent": "event:>Vehicle>Transmission>helical_01>twine_out_tuned",
+    },
+},
+}

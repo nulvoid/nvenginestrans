@@ -1,0 +1,23 @@
+{
+"nvbolidetc": {
+    "information":{
+        "authors":"nulvoid",
+        "name":"Locking Torque Converter",
+        "value":150,
+    },
+    "slotType" : "nvbolidetc",
+    "torqueConverter": {
+        "uiName":"Torque Converter",
+        "converterDiameter": 0.266,
+        "converterStiffness":9,
+        "couplingAVRatio":0.9,
+        "stallTorqueRatio":1.8,
+        "lockupClutchTorque":250,
+        "additionalEngineInertia":0.1,
+    },
+    "vehicleController": {
+        "torqueConverterLockupRPM":1800,
+        "torqueConverterLockupMinGear":3,
+    },
+},
+}

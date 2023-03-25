@@ -10,6 +10,10 @@ A Google Sheet of transmission ratios for real world vehicles can be found [here
 
 **Automatic Transmissions**
 - Four Speed Automatic Transmission
+  - Fierro three speed with an added overdrive
+    ```
+    -2.07, 2.84, 1.6, 1, 0.88
+    ```
 - Five Speed Automatic Transmission
 
 **Dual Clutch Transmissions**
@@ -41,6 +45,8 @@ A Google Sheet of transmission ratios for real world vehicles can be found [here
 - Gear Types
   - Helical gears
   - Straight cut gears
+- Torque Converters
+  - Locking torque converter
 
 ### Ibishu 200BX
 

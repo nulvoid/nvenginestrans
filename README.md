@@ -41,3 +41,18 @@ A Google Sheet of transmission ratios for real world vehicles can be found [here
 - Gear Types
   - Helical gears
   - Straight cut gears
+
+### Ibishu 200BX
+
+**Automatic Transmissions**
+
+**Dual Clutch Transmissions**
+
+**Manual Transmissions**
+
+**Sequential Transmissions**
+
+**Extra Items**
+- Gear Types
+  - Helical gears
+  - Straight cut gears

@@ -11,6 +11,11 @@
         ["nvbolidetc","nvbolidetc","Torque Converter", {"coreSlot":true}],
         ["bolide_differential_R","bolide_differential_R_LSD", "Rear Differential"],
     ],
+    "controller": [
+        ["fileName"],
+        ["propAnimation/singleAxisLever", {"name":"singleAxisLever"}],
+        ["transbrake", {}],
+    ],
     "powertrain": [
         ["type", "name", "inputName", "inputIndex"],
         ["torqueConverter", "torqueConverter", "mainEngine", 1],

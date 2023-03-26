@@ -1,0 +1,51 @@
+{
+"nvcoupe24Lswapengineecu": {
+    "information":{
+        "authors":"nulvoid",
+        "name":"Base ECU",
+        "value":725,
+    },
+    "slotType" : "nvcoupe24Lswapengineecu",
+    "mainEngine":{
+        "revLimiterRPM":6800,
+        "revLimiterType":"timeBased",
+        "revLimiterCutTime":0.09,
+    },
+},
+"nvcoupe24Lswapengineecustype": {
+    "information":{
+        "authors":"nulvoid",
+        "name":"S-Type ECU",
+        "value":725,
+    },
+    "slotType" : "nvcoupe24Lswapengineecu",
+    "mainEngine":{
+        "revLimiterRPM":7300,
+        "revLimiterType":"timeBased",
+        "revLimiterCutTime":0.07,
+    },
+},
+"nvcoupe24Lswapengineecustandalone": {
+    "information":{
+        "authors":"nulvoid",
+        "name":"Standalone ECU",
+        "value":725,
+    },
+    "slotType" : "nvcoupe24Lswapengineecu",
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$revLimiterRPM", "range", "rpm", "Engine", 7000, 4500, 9000, "RPM Limit", "RPM where the rev limiter prevents further revving", {"stepDis":50}],
+        ["$revLimiterCutTime", "range", "s", "Engine", 0.10, 0.01, 0.5, "RPM Limit Cut Time", "How fast the rev limiter cycles", {"stepDis":0.01}],
+    ],
+    "controller": [
+        ["fileName"],
+        ["twoStepLaunch", {"rpmLimit":4000}],
+    ],
+    "mainEngine":{
+        "$+idleRPM":100,
+        "revLimiterRPM":"$revLimiterRPM",
+        "revLimiterType":"timeBased",
+        "revLimiterCutTime":"$revLimiterCutTime",
+    },
+},
+}

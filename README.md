@@ -55,6 +55,23 @@ A Google Sheet of transmission ratios for real world vehicles can be found [here
 **Dual Clutch Transmissions**
 
 **Manual Transmissions**
+- Six Speed Manual Transmission
+  - Ratio 1: 2004-2008 TSX
+    ```
+    -3.583, 3.266, 1.88, 1.355, 1.028, 0.825, 0.659
+    ```
+  - Ratio 2: 2001-2005 Integra Type R
+    ```
+    -3.583, 3.266, 2.13, 1.517, 1.212, 0.972, 0.78
+    ```
+  - Ratio 3: 2004-2008 TL
+    ```
+    -4.008, 3.933, 2.478, 1.7, 1.25, 0.975, 0.77
+    ```
+  - Ratio 4: 2005-2006 Corolla XRS/2003-2006 Matrix XRS (Vibe GT)
+    ```
+    -3.25, 3.166, 2.05, 1.481, 1.166, 0.916, 0.725
+    ```
 
 **Sequential Transmissions**
 

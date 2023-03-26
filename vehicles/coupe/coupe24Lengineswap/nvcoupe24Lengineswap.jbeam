@@ -11,7 +11,7 @@
         ["coupe_enginemounts","coupe_enginemounts", "Engine Mounts", {"coreSlot":true}],
         ["coupe_intake","coupe_intake", "Intake", {"coreSlot":true}],
 	["nvcoupe24Lswapenginecameo", "", "CAMEO"],
-        ["coupe_oilpan_I4","coupe_oilpan_I4", "Oil Pan", {"coreSlot":true}],
+        ["nvcoupe24Lengineoilpan","nvcoupe24Lengineoilpan", "Oil Pan", {"coreSlot":true}],
         ["coupe_exhaust_I4","coupe_exhaust_I4", "Exhaust"],
         ["nvcoupe24Lswapengineecu","nvcoupe24Lswapengineecu", "Engine Management", {"coreSlot":true}],
         ["n2o_system","", "Nitrous Oxide System"],

@@ -1,0 +1,26 @@
+{
+"nvbolideopendiff": {
+    "information":{
+        "authors":"nulvoid",
+        "name":"Open Rear Differential",
+        "value":1250,
+    },
+    "slotType" : "bolide_differential_R",
+    "slots": [
+        ["type", "default", "description"],
+        ["bolide_finaldrive_R","bolide_finaldrive_R_345", "Rear Final Drive", {"coreSlot":true}],
+    ],
+    "powertrain" : [
+        ["type", "name", "inputName", "inputIndex"],
+        ["differential", "differential_R", "gearbox", 1, {"diffType":"open", "gearRatio": 1, "uiName":"Rear Differential","defaultVirtualInertia":0.25}],
+    ],
+    "differential_R": {
+        "friction": 4.13,
+        "dynamicFriction": 0.00195,
+        "torqueLossCoef": 0.030,
+    },
+    "beams": [
+          ["id1:", "id2:"],
+    ],
+},
+}

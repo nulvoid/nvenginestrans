@@ -228,7 +228,6 @@
     },
     "slotType" : "nvcoupe6mgearset",
     "gearbox": {
-        "uiName":"Gearbox",
         "gearRatios":[-3.583, 0, 3.266, 1.88, 1.355, 1.028, 0.825, 0.659], //2004-2008 TSX
     },
 },
@@ -240,7 +239,6 @@
     },
     "slotType" : "nvcoupe6mgearset",
     "gearbox": {
-        "uiName":"Gearbox",
         "gearRatios":[-3.583, 0, 3.266, 2.13, 1.517, 1.212, 0.972, 0.78], //2001-2005 Integra Type R
     },
 },
@@ -252,7 +250,6 @@
     },
     "slotType" : "nvcoupe6mgearset",
     "gearbox": {
-        "uiName":"Gearbox",
         "gearRatios":[-4.008, 0, 3.933, 2.478, 1.7, 1.25, 0.975, 0.77], //2004-2008 TL
     },
 },
@@ -264,7 +261,6 @@
     },
     "slotType" : "nvcoupe6mgearset",
     "gearbox": {
-        "uiName":"Gearbox",
         "gearRatios":[-3.25, 0, 3.166, 2.05, 1.481, 1.166, 0.916, 0.725], //2005-2006 Corolla XRS/2003-2006 Matrix XRS (Vibe GT)
     },
 },

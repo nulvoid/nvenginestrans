@@ -7,10 +7,10 @@
     },
     "slotType" : "nvcoupe24Lswapintake",
     "supercharger": {
-        "gearRatio":1.66,
+        "gearRatio":1.4,
         "clutchEngageRPM":0,
-        "pressureRatePSI":250,
-        "pressurePSIPer1kRPM":3.5,
+        "pressureRatePSI":125,
+        "pressurePSIPer1kRPM":2.5,
         "crankLossPer1kRPM":0.04,
         "type":"roots",
         "lobes":2,

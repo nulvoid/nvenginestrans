@@ -116,7 +116,6 @@
     },
     "slotType" : "nvbolide6mgearset",
     "gearbox": {
-        "uiName":"Gearbox",
         "gearRatios":[-3.5, 0, 3.23, 2.19, 1.71, 1.39, 1.16, 0.93], //McLaren F1
     },
 },
@@ -128,7 +127,6 @@
     },
     "slotType" : "nvbolide6mgearset",
     "gearbox": {
-        "uiName":"Gearbox",
         "gearRatios":[-5.23, 0, 5.79, 3.31, 2.1, 1.31, 1, 0.72], //1989-1996 Corvette
     },
 },
@@ -140,7 +138,6 @@
     },
     "slotType" : "nvbolide6mgearset",
     "gearbox": {
-        "uiName":"Gearbox",
         "gearRatios":[-3.73, 0, 4.11, 2.32, 1.54, 1.18, 1, 0.85], //2019 M2 Competition
     },
 },

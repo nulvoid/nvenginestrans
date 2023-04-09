@@ -6,6 +6,62 @@
         "value":0,
     },
     "slotType" : "nvcoupe24Lswapintake",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["coupe_manifold_stock", ["coupe_engine"]],
+        ["coupe_intake", ["coupe_engine", "coupe_airbox"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":false},
+         {"collision":true},
+         {"frictionCoef":0.5},
+
+         //airbox
+         {"nodeWeight":1.0},
+         {"group":"coupe_airbox"},
+         {"nodeMaterial":"|NM_PLASTIC"},
+         ["airb1", 0.35, -1.75, 0.7],
+         ["airb2", -0.35, -1.75, 0.7],
+         {"engineGroup":""},
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+
+          //airbox
+          {"beamSpring":101000,"beamDamp":300},
+          {"beamDeform":3000,"beamStrength":25000},
+          {"deformGroup":"mainEngine_intake", "deformationTriggerRatio":0.01}
+          ["airb1", "e3r"],
+          ["airb1", "e3l"],
+          ["airb1", "e4r"],
+          ["airb1", "e4l"],
+          ["airb1", "e2l"],
+          ["airb1", "e2r"],
+          ["airb2", "e3r"],
+          ["airb2", "e3l"],
+          ["airb2", "e4r"],
+          ["airb2", "e4l"],
+          ["airb2", "e2l"],
+          ["airb2", "e2r"],
+          ["airb2", "airb1"],
+          {"deformGroup":""}
+
+           //attach to body
+          {"beamDeform":2000,"beamStrength":15000},
+          ["airb2", "f13rr"],
+          ["airb2", "f15r"],
+          ["airb2", "f15"],
+          ["airb2", "f11rr"],
+          ["airb2", "f15rr"],
+
+          ["airb1", "f12ll"],
+          ["airb1", "f15ll"],
+          ["airb1", "f13ll"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
 },
 "nvcoupe24Lswapintakesr": {
     "information":{
@@ -30,6 +86,62 @@
             [10000, 0],
         ],
 	}
+	"flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["coupe_manifold_stock", ["coupe_engine"]],
+        ["coupe_intake", ["coupe_engine", "coupe_airbox"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":false},
+         {"collision":true},
+         {"frictionCoef":0.5},
+
+         //airbox
+         {"nodeWeight":1.0},
+         {"group":"coupe_airbox"},
+         {"nodeMaterial":"|NM_PLASTIC"},
+         ["airb1", 0.35, -1.75, 0.7],
+         ["airb2", -0.35, -1.75, 0.7],
+         {"engineGroup":""},
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+
+          //airbox
+          {"beamSpring":101000,"beamDamp":300},
+          {"beamDeform":3000,"beamStrength":25000},
+          {"deformGroup":"mainEngine_intake", "deformationTriggerRatio":0.01}
+          ["airb1", "e3r"],
+          ["airb1", "e3l"],
+          ["airb1", "e4r"],
+          ["airb1", "e4l"],
+          ["airb1", "e2l"],
+          ["airb1", "e2r"],
+          ["airb2", "e3r"],
+          ["airb2", "e3l"],
+          ["airb2", "e4r"],
+          ["airb2", "e4l"],
+          ["airb2", "e2l"],
+          ["airb2", "e2r"],
+          ["airb2", "airb1"],
+          {"deformGroup":""}
+
+           //attach to body
+          {"beamDeform":2000,"beamStrength":15000},
+          ["airb2", "f13rr"],
+          ["airb2", "f15r"],
+          ["airb2", "f15"],
+          ["airb2", "f11rr"],
+          ["airb2", "f15rr"],
+
+          ["airb1", "f12ll"],
+          ["airb1", "f15ll"],
+          ["airb1", "f13ll"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
 },
 "nvcoupe24Lswapintakecai": {
     "information":{
@@ -54,5 +166,61 @@
             [10000, 3],
         ],
 	}
+	"flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["coupe_manifold_stock", ["coupe_engine"]],
+        ["coupe_intake", ["coupe_engine", "coupe_airbox"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":false},
+         {"collision":true},
+         {"frictionCoef":0.5},
+
+         //airbox
+         {"nodeWeight":1.0},
+         {"group":"coupe_airbox"},
+         {"nodeMaterial":"|NM_PLASTIC"},
+         ["airb1", 0.35, -1.75, 0.7],
+         ["airb2", -0.35, -1.75, 0.7],
+         {"engineGroup":""},
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+
+          //airbox
+          {"beamSpring":101000,"beamDamp":300},
+          {"beamDeform":3000,"beamStrength":25000},
+          {"deformGroup":"mainEngine_intake", "deformationTriggerRatio":0.01}
+          ["airb1", "e3r"],
+          ["airb1", "e3l"],
+          ["airb1", "e4r"],
+          ["airb1", "e4l"],
+          ["airb1", "e2l"],
+          ["airb1", "e2r"],
+          ["airb2", "e3r"],
+          ["airb2", "e3l"],
+          ["airb2", "e4r"],
+          ["airb2", "e4l"],
+          ["airb2", "e2l"],
+          ["airb2", "e2r"],
+          ["airb2", "airb1"],
+          {"deformGroup":""}
+
+           //attach to body
+          {"beamDeform":2000,"beamStrength":15000},
+          ["airb2", "f13rr"],
+          ["airb2", "f15r"],
+          ["airb2", "f15"],
+          ["airb2", "f11rr"],
+          ["airb2", "f15rr"],
+
+          ["airb1", "f12ll"],
+          ["airb1", "f15ll"],
+          ["airb1", "f13ll"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
 },
 }

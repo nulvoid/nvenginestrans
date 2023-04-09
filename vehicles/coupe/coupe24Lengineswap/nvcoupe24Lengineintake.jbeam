@@ -1,3 +1,58 @@
 {
-
+"nvcoupe24Lswapintake": {
+    "information":{
+        "authors":"nulvoid",
+        "name":"Stock Intake",
+        "value":0,
+    },
+    "slotType" : "nvcoupe24Lswapintake",
+},
+"nvcoupe24Lswapintakesr": {
+    "information":{
+        "authors":"nulvoid",
+        "name":"Short Ram Intake",
+        "value":0,
+    },
+    "slotType" : "nvcoupe24Lswapintake",
+    "mainEngine":{
+        "torqueModPart1":[
+            ["rpm", "torque"],
+            [0,     0],
+            [1000,  2],
+            [2000,  4],
+            [3000,  5],
+            [4000,  6],
+            [5000,  5],
+            [6000,  5],
+            [7000,  4],
+            [8000,  3],
+            [9000,  1],
+            [10000, 0],
+        ],
+	}
+},
+"nvcoupe24Lswapintakecai": {
+    "information":{
+        "authors":"nulvoid",
+        "name":"Cold Air Intake",
+        "value":0,
+    },
+    "slotType" : "nvcoupe24Lswapintake",
+    "mainEngine":{
+        "torqueModPart1":[
+            ["rpm", "torque"],
+            [0,     0],
+            [1000,  2],
+            [2000,  3],
+            [3000,  4],
+            [4000,  5],
+            [5000,  6],
+            [6000,  6],
+            [7000,  5],
+            [8000,  4],
+            [9000,  3],
+            [10000, 3],
+        ],
+	}
+},
 }

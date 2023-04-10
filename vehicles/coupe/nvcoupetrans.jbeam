@@ -1,0 +1,14 @@
+{
+"nvcoupetrans": {
+    "information":{
+        "authors":"nulvoid",
+        "name":"NV Transmission",
+        "value":4400,
+    },
+    "slotType" : "coupe_transmission",
+    "slots": [
+        ["type", "default","description"],
+        ["nvcoupetrans","nvcoupe6m","Transmission"],
+    ],
+},
+}

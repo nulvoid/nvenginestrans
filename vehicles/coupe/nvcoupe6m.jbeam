@@ -9,7 +9,7 @@
     "slots": [
         ["type", "default","description"],
 		["nvcoupe6mgearset","nvcoupe6mgearset1","Gearset", {"coreSlot":true}],
-		["nvcoupegeartype","nvcoupegearhelical","Gear Type", {"coreSlot":true}],
+		["nvgeartype","nvgearhelical","Gear Type", {"coreSlot":true}],
         ["coupe_flywheel","coupe_flywheel_race","Flywheel", {"coreSlot":true}],
     ],
     "powertrain": [

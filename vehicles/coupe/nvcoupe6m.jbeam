@@ -5,7 +5,7 @@
         "name":"6-Speed Manual Transmission",
         "value":4400,
     },
-    "slotType" : "coupe_transmission",
+    "slotType" : "nvcoupetransmission",
     "slots": [
         ["type", "default","description"],
 		["nvcoupe6mgearset","nvcoupe6mgearset1","Gearset", {"coreSlot":true}],

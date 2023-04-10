@@ -1,0 +1,14 @@
+{
+"nvtransbrake": {
+    "information":{
+        "authors":"nulvoid",
+        "name":"Trans Brake",
+        "value":1350,
+    },
+    "slotType" : "nvtransbrake",
+    "controller": [
+        ["fileName"],
+        ["transbrake", {}],
+    ],
+},
+}

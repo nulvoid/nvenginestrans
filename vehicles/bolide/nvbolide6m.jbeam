@@ -9,7 +9,7 @@
     "slots": [
         ["type", "default", "description"],
 	["nvbolide6mgearset","nvbolide6mgearset1","Gearset", {"coreSlot":true}],
-	["nvbolidegeartype","nvbolidegearhelical","Gear Type", {"coreSlot":true}],
+	["nvgeartype","nvgearhelical","Gear Type", {"coreSlot":true}],
         ["bolide_flywheel","bolide_flywheel","Flywheel", {"coreSlot":true}],
         ["bolide_differential_R","bolide_differential_R_LSD", "Rear Differential"],
     ],

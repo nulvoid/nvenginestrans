@@ -1,0 +1,14 @@
+{
+"nvnolidetrans": {
+    "information":{
+        "authors":"nulvoid",
+        "name":"NV Transmission",
+        "value":4400,
+    },
+    "slotType" : "bolide_transaxle",
+    "slots": [
+        ["type", "default","description"],
+        ["bolide_transaxle","nvbolide6m","Transmission"],
+    ],
+},
+}

@@ -18,7 +18,7 @@
         ["nvcoupe24Lswapengineecu","nvcoupe24Lswapengineecu", "Engine Management", {"coreSlot":true}],
         ["n2o_system","", "Nitrous Oxide System"],
         ["coupe_engine_internals","coupe_engine_internals", "Engine Long Block", {"coreSlot":true}],
-        ["coupe_transmission","coupe_transmission_5M", "Transmission"],
+        ["nvcoupetransmission","nvcoupe6m", "Transmission"],
     ],
     "powertrain": [
         ["type", "name", "inputName", "inputIndex"],

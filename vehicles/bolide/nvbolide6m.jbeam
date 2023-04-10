@@ -5,7 +5,7 @@
         "name":"6-Speed Manual Transaxle",
         "value":8000,
     },
-    "slotType" : "bolide_transaxle",
+    "slotType" : "nvbolidetrans",
     "slots": [
         ["type", "default", "description"],
 	["nvbolide6mgearset","nvbolide6mgearset1","Gearset", {"coreSlot":true}],

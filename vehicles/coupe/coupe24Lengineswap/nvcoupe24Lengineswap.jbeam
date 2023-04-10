@@ -10,6 +10,8 @@
         ["type", "default", "description"],
         ["coupe_enginemounts","coupe_enginemounts", "Engine Mounts", {"coreSlot":true}],
         ["nvcoupe24Lswapintake","nvcoupe24Lswapintake", "Intake", {"coreSlot":true}],
+	["nvcoupe24Lswapsuper", "", "Supercharger"],
+	["nvcoupe24Lswapturbo", "", "Turbocharger"],
 	["nvcoupe24Lswapenginecameo", "", "CAMEO"],
         ["nvcoupe24Lengineoilpan","nvcoupe24Lengineoilpan", "Oil Pan", {"coreSlot":true}],
         ["coupe_exhaust_I4","coupe_exhaust_I4", "Exhaust"],

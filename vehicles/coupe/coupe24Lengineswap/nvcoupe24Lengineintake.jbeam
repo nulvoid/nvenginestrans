@@ -16,8 +16,6 @@
          {"selfCollision":false},
          {"collision":true},
          {"frictionCoef":0.5},
-
-         //airbox
          {"nodeWeight":1.0},
          {"group":"coupe_airbox"},
          {"nodeMaterial":"|NM_PLASTIC"},
@@ -29,8 +27,6 @@
     "beams": [
           ["id1:", "id2:"],
           {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
-
-          //airbox
           {"beamSpring":101000,"beamDamp":300},
           {"beamDeform":3000,"beamStrength":25000},
           {"deformGroup":"mainEngine_intake", "deformationTriggerRatio":0.01}
@@ -48,15 +44,12 @@
           ["airb2", "e2r"],
           ["airb2", "airb1"],
           {"deformGroup":""}
-
-           //attach to body
           {"beamDeform":2000,"beamStrength":15000},
           ["airb2", "f13rr"],
           ["airb2", "f15r"],
           ["airb2", "f15"],
           ["airb2", "f11rr"],
           ["airb2", "f15rr"],
-
           ["airb1", "f12ll"],
           ["airb1", "f15ll"],
           ["airb1", "f13ll"],
@@ -71,18 +64,18 @@
     },
     "slotType" : "nvcoupe24Lswapintake",
     "mainEngine":{
-        "torqueModPart1":[
+        "torqueModIntake":[
             ["rpm", "torque"],
             [0,     0],
-            [1000,  2],
-            [2000,  4],
-            [3000,  5],
-            [4000,  6],
-            [5000,  5],
-            [6000,  5],
-            [7000,  4],
-            [8000,  3],
-            [9000,  1],
+            [1000,  +2],
+            [2000,  +4],
+            [3000,  +5],
+            [4000,  +6],
+            [5000,  +5],
+            [6000,  +5],
+            [7000,  +4],
+            [8000,  +3],
+            [9000,  +1],
             [10000, 0],
         ],
 	}
@@ -96,8 +89,6 @@
          {"selfCollision":false},
          {"collision":true},
          {"frictionCoef":0.5},
-
-         //airbox
          {"nodeWeight":1.0},
          {"group":"coupe_airbox"},
          {"nodeMaterial":"|NM_PLASTIC"},
@@ -109,8 +100,6 @@
     "beams": [
           ["id1:", "id2:"],
           {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
-
-          //airbox
           {"beamSpring":101000,"beamDamp":300},
           {"beamDeform":3000,"beamStrength":25000},
           {"deformGroup":"mainEngine_intake", "deformationTriggerRatio":0.01}
@@ -128,15 +117,12 @@
           ["airb2", "e2r"],
           ["airb2", "airb1"],
           {"deformGroup":""}
-
-           //attach to body
           {"beamDeform":2000,"beamStrength":15000},
           ["airb2", "f13rr"],
           ["airb2", "f15r"],
           ["airb2", "f15"],
           ["airb2", "f11rr"],
           ["airb2", "f15rr"],
-
           ["airb1", "f12ll"],
           ["airb1", "f15ll"],
           ["airb1", "f13ll"],
@@ -151,19 +137,19 @@
     },
     "slotType" : "nvcoupe24Lswapintake",
     "mainEngine":{
-        "torqueModPart1":[
+        "torqueModIntake":[
             ["rpm", "torque"],
             [0,     0],
-            [1000,  2],
-            [2000,  3],
-            [3000,  4],
-            [4000,  5],
-            [5000,  6],
-            [6000,  6],
-            [7000,  5],
-            [8000,  4],
-            [9000,  3],
-            [10000, 3],
+            [1000,  +2],
+            [2000,  +3],
+            [3000,  +4],
+            [4000,  +5],
+            [5000,  +6],
+            [6000,  +6],
+            [7000,  +5],
+            [8000,  +4],
+            [9000,  +3],
+            [10000, +3],
         ],
 	}
 	"flexbodies": [
@@ -176,8 +162,6 @@
          {"selfCollision":false},
          {"collision":true},
          {"frictionCoef":0.5},
-
-         //airbox
          {"nodeWeight":1.0},
          {"group":"coupe_airbox"},
          {"nodeMaterial":"|NM_PLASTIC"},
@@ -189,8 +173,6 @@
     "beams": [
           ["id1:", "id2:"],
           {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
-
-          //airbox
           {"beamSpring":101000,"beamDamp":300},
           {"beamDeform":3000,"beamStrength":25000},
           {"deformGroup":"mainEngine_intake", "deformationTriggerRatio":0.01}
@@ -208,15 +190,12 @@
           ["airb2", "e2r"],
           ["airb2", "airb1"],
           {"deformGroup":""}
-
-           //attach to body
           {"beamDeform":2000,"beamStrength":15000},
           ["airb2", "f13rr"],
           ["airb2", "f15r"],
           ["airb2", "f15"],
           ["airb2", "f11rr"],
           ["airb2", "f15rr"],
-
           ["airb1", "f12ll"],
           ["airb1", "f15ll"],
           ["airb1", "f13ll"],

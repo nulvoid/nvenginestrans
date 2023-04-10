@@ -8,7 +8,7 @@
     "slotType" : "bolide_transaxle",
     "slots": [
         ["type", "default","description"],
-        ["bolide_transaxle","nvbolide6m","Transmission"],
+        ["nvbolidetrans","nvbolide6m","Transmission"],
     ],
 },
 }

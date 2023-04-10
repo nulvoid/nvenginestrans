@@ -5,7 +5,7 @@
         "name":"4-Speed Automatic Transmission",
         "value":1350,
     },
-    "slotType" : "bolide_transaxle",
+    "slotType" : "nvbolidetrans",
     "slots": [
         ["type", "default", "description"],
         ["nvbolidetc","nvbolidetc","Torque Converter", {"coreSlot":true}],

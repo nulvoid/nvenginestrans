@@ -8,7 +8,7 @@
     "slotType" : "scintilla_engine",
     "slots": [
         ["type", "default", "description"],
-        ["scintilla_intake_5.0","scintilla_intake_5.0_stock", "Intake", {"coreSlot":true}],
+        ["scintilla36Lturbo","scintilla36Lturbo", "Intake", {"coreSlot":true}],
         ["scintilla_exhaust","scintilla_exhaust", "Exhaust"],
         ["scintilla_engine_5.0_ecu","scintilla_engine_5.0_ecu", "Engine Management", {"coreSlot":true}],
         ["scintilla_engine_5.0_internals","scintilla_engine_5.0_internals", "Engine Long Block", {"coreSlot":true}],
